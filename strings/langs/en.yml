@@ -1,4 +1,4 @@
-name : 🏴󠁧󠁢󠁥󠁮󠁧󠁿 𝐄𝐍𝐆𝐋𝐈𝐒𝐇
+name : 🏴󠁧󠁢󠁥󠁮󠁧󠁿 **ᴇɴɢʟɪꜱʜ**
 
 # General Strings
 general_1 : "Reply to a user's message or give username/user_id."
@@ -75,7 +75,7 @@ admin_34 : "Failed to seek the current stream."
 
 # Start
 start_1 : "Thanks for having me in {0}.\n{1} is alive.\n\nFor any assistance or help, checkout our support group and channel."
-start_2 : "ʜᴇʏ {0} 🫶🏻 / வணக்கம் {0} 🫶🏻.\n\n**➻ тнιѕ ιѕ @AppleBeatsBot ᴘᴏᴡᴇʀᴇᴅ ʙʏ @solotreee ᴄᴏᴍᴍᴜɴɪᴛʏ 🔥🔥🔥**.\n\n──────────────────\n**➻ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴏᴡ ᴀɴᴅ ᴇɴᴊᴏʏ ʏᴏᴜʀ ᴀᴡᴇꜱᴏᴍᴇ ᴍᴜꜱɪᴄᴀʟ ᴍᴏᴍᴇɴᴛꜱ ᴀɴᴅ ꜱᴏᴍᴇ ꜰᴀɴᴛᴀꜱᴛɪᴄ ꜰᴇᴀᴛᴜʀᴇꜱ ᴛᴏᴏ!!!🎉🎉🎉**."
+start_2 : "**ʜᴇʏ {0} 🫶🏻 / வணக்கம் {0} 🫶🏻**.\n\n**➻ тнιѕ ιѕ @AppleBeatsBot ᴘᴏᴡᴇʀᴇᴅ └ʙʏ @solotreee ᴄᴏᴍᴍᴜɴɪᴛʏ 🔥🔥🔥**.\n\n──────────────────\n**➻ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɴᴏᴡ ᴀɴᴅ ᴇɴᴊᴏʏ ʏᴏᴜʀ ᴀᴡᴇꜱᴏᴍᴇ ᴍᴜꜱɪᴄᴀʟ ᴍᴏᴍᴇɴᴛꜱ ᴀɴᴅ ꜱᴏᴍᴇ ꜰᴀɴᴛᴀꜱᴛɪᴄ ꜰᴇᴀᴛᴜʀᴇꜱ ᴛᴏᴏ!!!🎉🎉🎉**."
 start_3 : "Welcome To {0}\n\nI don't need any **admin permission** to work ( until asked for ).\n\nAssistant Username:- @{1}\nAssistant ID:- {2}"
 start_4 : "{0}'s Owner[{1}] has just joined your chat."
 start_5 : "A member of {0}'s Sudo User[{1}] has just joined your chat."
@@ -250,10 +250,10 @@ S_B_1 : "🗒 Commands"
 S_B_2 : "🔧 Settings"
 S_B_3 : "📨 Support"
 S_B_4 : "📨 Channel"
-S_B_5 : "𝐀𝐃𝐃 𝐌𝐄 🤝🏻"
+S_B_5 : "ᴀᴅᴅ ᴍᴇ 🤝🏻"
 S_B_6 : "💡 Git Repo"
 S_B_7 : "👤 Bot Owner"
-S_B_8 : "𝐇𝐄𝐋𝐏 🤞🏻"
+S_B_8 : "ʜᴇʟᴘ 🤞🏻"
 
 #Help 
 H_B_1 : "Admin Commands"
@@ -293,7 +293,7 @@ ST_B_2 : "🎥 Vid Quality"
 ST_B_3 : "🎩 Auth Users"
 ST_B_4 : "📱 Dashboard"
 ST_B_5 : "▶️ Play Mode"
-ST_B_6 : "𝐄𝐍𝐆𝐋𝐈𝐒𝐇 / 𝐓𝐀𝐌𝐈𝐋"
+ST_B_6 : "ᴇɴɢʟɪꜱʜ / ᴛᴀᴍɪʟ 🫰🏻"
 ST_B_7 : "🔄 Clean Mode"
 ST_B_8 : "{0} Low Quality Audio"
 ST_B_9 : "{0} Medium Quality Audio"
