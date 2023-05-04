@@ -50,15 +50,9 @@ async def helper_private(
         language = await get_lang(chat_id)
         _ = get_string(language)
         keyboard = help_pannel(_, True)
-        if update.message.photo:
-            await update.message.delete()
-            await update.message.reply_text(
-                _["help_1"], reply_markup=keyboard
-            )
-        else:
-            await update.edit_message_text(
-                _["help_1"], reply_markup=keyboard
-            )
+        await update.edit_message_text(
+            _["help_1"], reply_markup=keyboard
+        )
     else:
         chat_id = update.chat.id
         if await is_commanddelete_on(update.chat.id):
@@ -92,14 +86,14 @@ async def helper_cb(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
     cb = callback_data.split(None, 1)[1]
     keyboard = help_back_markup(_)
-    if cb == "hb5":
+    if cb == "hb20":
         if CallbackQuery.from_user.id not in SUDOERS:
             return await CallbackQuery.answer(
                 "Only for Sudo Users", show_alert=True
             )
         else:
             await CallbackQuery.edit_message_text(
-                helpers.HELP_5, reply_markup=keyboard
+                helpers.HELP_20, reply_markup=keyboard
             )
             return await CallbackQuery.answer()
     try:
@@ -122,3 +116,63 @@ async def helper_cb(client, CallbackQuery, _):
         await CallbackQuery.edit_message_text(
             helpers.HELP_4, reply_markup=keyboard
         )
+    elif cb == "hb5":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_5, reply_markup=keyboard
+        )
+    elif cb == "hb6":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_6, reply_markup=keyboard
+        )
+    elif cb == "hb7":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_7, reply_markup=keyboard
+        )
+    elif cb == "hb8":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_8, reply_markup=keyboard
+        )
+    elif cb == "hb9":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_9, reply_markup=keyboard
+        )
+    elif cb == "hb10":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_10, reply_markup=keyboard
+        )
+    elif cb == "hb11":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_11, reply_markup=keyboard
+        )
+    elif cb == "hb12":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_12, reply_markup=keyboard
+        )
+    elif cb == "hb13":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_13, reply_markup=keyboard
+        )
+    elif cb == "hb14":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_14, reply_markup=keyboard
+        )
+    elif cb == "hb15":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_15, reply_markup=keyboard
+        )
+    elif cb == "hb16":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_16, reply_markup=keyboard
+        )
+    elif cb == "hb17":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_17, reply_markup=keyboard
+        )
+    elif cb == "hb18":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_18, reply_markup=keyboard
+        )
+    elif cb == "hb19":
+        await CallbackQuery.edit_message_text(
+            helpers.HELP_19, reply_markup=keyboard
+        )         
