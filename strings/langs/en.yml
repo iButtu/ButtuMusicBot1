@@ -83,8 +83,8 @@ start_6 : "❗️ **Supergroup Needed** ❗️\n\nPlease convert your **group** 
 start_7 : "**Blacklisted Chat**\n\nYou're chat has been blacklisted by the Bot. Please ask any SudoUser to whitelist chat first. Check [Sudolist from here]({0})"
 
 # Help
-help_1 : "Click on the buttons below for more information. If you're facing any problem in command you can contact my bot owner or ask in support chat.\n\nAll commands can be used with: /"
-help_2 : "Contact me in PM for help."
+help_1 : "https://te.legra.ph/file/594c4f799dd4c66b64708.jpg"
+help_2 : "𝙰𝚗𝚢 𝚘𝚝𝚑𝚎𝚛 𝙳𝚘𝚞𝚋𝚝𝚜 𝚌𝚘𝚗𝚝𝚊𝚌𝚝 𝚖𝚎 𝚒𝚗 𝙿𝙼 🍏"
 
 # Settings
 setting_1 : "⚙️ **Music Bot Settings**\n\n🖇**Group:** {0}\n🔖**Group ID:** `{1}`\n\n💡**Choose the function buttons from below which you want to edit or change.**"
